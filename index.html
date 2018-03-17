@@ -9,7 +9,46 @@
     <link rel= "stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    This is the Backend branch.
+
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron col-md-12 text-center">
+                <h1>NEW YORK TIMES APP</h1>
+            </div>
+        </div>
+        <!-- Beginning of "first row" -->
+        <div class="row">  
+            <div class="card card-primary col-md-12">
+                <div class="card-header">Search Parameters</div>
+                <div class="card-body">
+                    <div class="row" id="historicalFigure">
+                        <label class="col-md-12">Historical Figure</label>
+                        <input type="text" class="col-md-12" id="historical" value="Ex: Abraham Lincoln">
+                    </div>
+                    <div class="row" id="minimumYear">
+                        <label class="col-md-12">Minimum Year</label>
+                        <input type="text" class="col-md-12" id="minYear" value="Ex: 1809">
+                    </div>
+                    <div class="row" id="maximumYear">
+                        <label class="col-md-12">Maximum Year</label>
+                        <input type="text" class="col-md-12" id="maxYear" value="Ex: 1865">
+                    </div>
+                    <div class="row" id="buttons">
+                        <button id="submitBtn">Submit</button>
+                        <button id="clearBtn">Clear Results</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of "first row" -->
+
+        <!-- Start of second "row" -->
+        <div class="row">
+            <div class="card card-primary col-md-12">
+                <div class="card-header">Top Articles</div>
+            </div>
+        </div>
+    
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
