@@ -6,20 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- style sheet -->
     <link rel= "stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
     <div class="container">
         <div class="row">
             <div class="jumbotron col-md-12 text-center">
-                <h1>NEW YORK TIMES APP</h1>
+                <h1 id="headline">NEW YORK TIMES APP</h1>
             </div>
         </div>
         <!-- Beginning of "first row" -->
         <div class="row">  
-            <div class="card card-primary col-md-12">
-                <div class="card-header">Search Parameters</div>
+            <div class="card col-md-12 searchBox">
+                <div class="row">
+                <div class="card-header col-md-12 section-title">Search Parameters</div>
+                </div>
                 <div class="card-body">
                     <div class="row" id="historicalFigure">
                         <label class="col-md-12">Historical Figure</label>
@@ -44,8 +48,13 @@
 
         <!-- Start of second "row" -->
         <div class="row">
-            <div class="card card-primary col-md-12">
-                <div class="card-header">Top Articles</div>
+            <div class="card col-md-12" id="articleBox">
+                <div class="row">
+                <div class="card-header col-md-12 section-title">Top Articles</div>
+                <div class="card-body" id="articles">
+                    <!-- article headlines -->
+                </div>
+                </div>
             </div>
         </div>
     

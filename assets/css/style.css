@@ -1,0 +1,51 @@
+body {
+    background: url(../images/newspaper.jpg);
+}
+
+.jumbotron {
+    box-shadow: 3px 3px 20px 6px rgb(255, 254, 254) !important;
+}
+
+#headline {
+    font-size: 65pt;
+}
+
+.searchBox {
+   margin-bottom: 20pt;
+   
+}
+
+.section-title {
+    font-weight: bold;
+  
+}
+
+#historicalFigure {
+    margin-bottom: 15pt;
+}
+
+input {
+    color: #dddddd;
+}
+
+#minimumYear {
+    margin-bottom: 15pt;
+}
+
+#maximumYear {
+    margin-bottom: 15pt;
+}
+
+#submitBtn {
+    margin-right: 10pt;
+}
+
+/* #clearBtn {
+    margin: 10pt;
+} */
+
+.articleBox {
+    margin-bottom: 20pt;
+}
+
+
